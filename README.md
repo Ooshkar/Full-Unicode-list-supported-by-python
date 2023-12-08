@@ -5,5 +5,5 @@ a compacted one aswell for different perposes, there are around 1000 characters 
 
 #code
 with open('your file with .txt', 'w', encoding='utf-8') as file:
-  for i in range(0, 1114112):  # Unicode range
+   for i in range(0, 1114112):  # Unicode range
       print(chr(i), end=' ', file=file)
